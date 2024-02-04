@@ -1,0 +1,88 @@
+.titulo{
+    background-color: #5C5B59;
+    width: 65%;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.imagen{
+    height: 18%;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.contenedor{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.contacto{
+    width: 22.9%;
+    background-color:rgba(92, 91, 89, 0.1);
+    padding: 15px;
+}
+
+.experiencia-formacion{
+    border: 1px solid #5C5B59;
+    width: 75%;
+    padding: 15px;
+}
+
+.direccion{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.direccion p{
+    margin: 0 0 0 5px;
+}
+
+ul li{
+    margin: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: white; /* Color de fondo de la barra */
+}
+
+.progress-bar-fill {
+    height: 10px; /* Altura de la barra */
+    background-color: #5C5B59; /* Color de la barra de progreso */
+    margin-bottom: 25PX;
+}
+
+.idioma p{
+    margin-bottom: 0;
+}
+
+.experiencia p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.tarjeta{
+    margin-top: 20px;
+}
+
+.subtitulo{
+    font-weight: bold;
+}
+
+td:focus {
+    outline: 2px solid blue;
+}
+
+td {
+    border: 1px solid black; /* Líneas de división para las celdas */
+    padding: 8px; /* Espacio alrededor del contenido de las celdas */
+}
+
+/* Estilo para las filas */
+tr {
+    border-bottom: 1px solid black; /* Línea de división en la parte inferior de cada fila */
+}
